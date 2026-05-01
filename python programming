@@ -1,0 +1,37 @@
+# DATA TYPES 
+'''
+INT 
+FLOAT
+STRING
+BOOLEAN
+COMPLEX
+'''
+#type method is used to find which data type
+#a=10
+#print(type(a))
+
+#b=-7
+#print(type(b)) # int data type
+
+#a=5.87
+#print(type(a)) # float
+
+#a=True
+#b=False
+#print(type(a),type(b)) # boolean
+
+print(True==1)
+print(False==0) # boolean
+
+i=1+3j
+print(type(i)) # complex
+
+# TYPE CONVERSION MEANS CONVERTING ONE DATA TYPE TO ANOTHER DATA TYPE 
+
+a=10
+print(float(a)) # implicity type conversion (no data losses)
+
+a=5.6 
+print(int(a)) # explicity type conversion (data losses )
+
+
