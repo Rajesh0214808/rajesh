@@ -1,0 +1,71 @@
+'''
+if
+else
+elif
+nested if
+'''
+
+'''
+if condition :
+   statement
+elif condition:
+   statement
+else:
+   statement
+'''
+if True:
+    print("i am if satement")
+
+elif True:
+    print("i am if statement")
+
+else:
+    print("i am else statement")
+
+
+a=5
+if a>=5:
+ print("a is true ")
+
+b=345
+if b<345:
+  print("b is true") #f the condition is False, Python just skips it — no error, no output.
+
+a=5
+if a>5:
+ print("a is true ")
+else:
+   print("a is false")
+
+a = "RAJESH"
+if type(a) == float:
+  print("a is a float")
+elif type(a) == complex:
+   print("a is a complex")
+else :
+   print("a is a string")
+
+   # nested if 
+#1
+rajesh = "kapu"
+if rajesh == "naidus":
+   print("rajesh is naidus")
+   if rajesh == "kapu":
+      print("rajesh is kapu")
+   else:
+      print("rajesh is a naidus")
+else:
+   print("rajesh is a kapu")
+
+#2
+num = 10
+if num > 0:
+    print("Number is positive")
+    
+    if num % 2 == 0:
+        print("Number is even")
+    else:
+        print("Number is odd")
+else:
+    print("Number is not positive")
+  
